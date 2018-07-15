@@ -17,7 +17,7 @@ def assign_rooms(list)
   x = 1
   list.each do |name|
     assign_rooms << "Hello, #{name}! You'll be assigned to room #{x}!"
-    x =+ 1
+    x += 1
   end
   assign_rooms
 end
