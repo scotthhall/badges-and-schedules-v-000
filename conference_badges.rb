@@ -5,5 +5,9 @@ end
 list = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(list)
-  list
+  list_badges = []
+  list.each do |name|
+    badge_maker(name)
+  end
+  list_badges
 end
